@@ -1,0 +1,60 @@
+<script src="info.js"></script>
+<section class="learning-anywhere-section">
+    
+    <div class="content-container">
+      
+        <div class="image-container">
+            <div class="blue-circle"></div>
+            <img src="/img/phone.png" alt="Learning Image" class="learning-image">
+        </div>
+        
+       
+        <div class="text-container">
+            <h2>Learning <span class="blue-text">Anytime</span> From Anywhere</h2>
+            <p class="note-text">Increase the mobility level with Eziline Technology LMS App. Take Your Courses in your pocket and access them whenever you want without any limits. Make your learning more engaging.</p>
+            
+            <div class="buttons-container">
+                <a href="#" class="download-button">
+                    <img src="/img/iph.png" alt="Apple Logo">
+                    Download on the App Store
+                </a>
+                <a href="#" class="download-button google-play">
+                    <img src="/img/gply.png" alt="Google Play Logo">
+                    Get it on Google Play
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- <script>
+    document.querySelector('.learning-anywhere-section').addEventListener('mousemove', (e) => {
+        const imageContainer = document.querySelector('.image-container');
+        const circle = document.querySelector('.blue-circle');
+        const image = document.querySelector('.learning-image');
+    
+        const rect = imageContainer.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+    
+        const moveX = (x - rect.width / 2) / 10;
+        const moveY = (y - rect.height / 2) / 10;
+    
+        // Adjust direction based on cursor position
+        // Circle moves faster
+        circle.style.transform = `translate(calc(-50% + ${moveX * 1.5}px), calc(-50% + ${moveY * 1.5}px))`;
+        // Image moves slower
+        image.style.transform = `translate(calc(-50% + ${moveX * 0.7}px), calc(-50% + ${moveY * 0.7}px))`;
+    });
+    
+    // Reset to default when mouse leaves section
+    document.querySelector('.learning-anywhere-section').addEventListener('mouseleave', () => {
+        const circle = document.querySelector('.blue-circle');
+        const image = document.querySelector('.learning-image');
+    
+        circle.style.transform = 'translate(-50%, -50%)';
+        image.style.transform = 'translate(-50%, -50%)';
+    });
+</script> -->
